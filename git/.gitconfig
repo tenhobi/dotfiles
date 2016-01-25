@@ -2,6 +2,8 @@
     helper = store
 [push]
     default = simple
+[commit]
+    template = ".gitmessage"
 [alias]
     aa = add --all
     amend = commit --amend
@@ -9,7 +11,6 @@
     changes = diff --name-status
     ci = commit
     cia = commit --all
-    cit = commit --all --template=".gitmessage"
     cim = commit -m
     cima = commit --all -m
     co = checkout
