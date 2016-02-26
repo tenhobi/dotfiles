@@ -14,14 +14,10 @@
 
 
 
-#### What are the relevant tickets?
+#### What are the relevant tickets or blog posts?
 
 
 
 #### Screenshots (if appropriate)
 
 
-
-#### Questions:
-- Is there a blog post?
-- Does the knowledge base need an update?
