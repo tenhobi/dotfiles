@@ -2,7 +2,11 @@
 
 
 
-#### Where should the reviewer start?
+#### What is the current behavior?
+
+
+
+#### What is the new behavior?
 
 
 
@@ -14,10 +18,10 @@
 
 
 
-#### What are the relevant tickets or blog posts?
-
-
-
 #### Screenshots (if appropriate)
+
+
+
+#### Other informations
 
 
