@@ -7,13 +7,13 @@
 [push]
     default = simple
 [alias]
-    am = commit --amend
     aa = add --all
     b = branch
     ba = branch --all
     changes = diff --name-status
     c = commit
     ca = commit --all
+    camend = commit --amend
     cm = commit -m
     cma = commit --all -m
     co = checkout
@@ -21,4 +21,4 @@
     dis = diff --stat
     l = log --pretty=oneline --abbrev-commit --graph --decorate
     s = status
-    undo = reset --soft HEAD^ 
+    undo = reset --soft HEAD^
