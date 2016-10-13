@@ -1,0 +1,19 @@
+# editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+quote_type = single
+indent_brace_style = K&R
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.html]
+quote_type = double
+
+[*.{scss, json}]
+indent_size = 2
