@@ -1,24 +1,22 @@
+[core]
+    excludesfile = ~/.gitignore
+[user]
+    name = Honza Bittner
+    email = git@honzabittner.cz
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
     required = true
-[credential]
-    helper = store
 [push]
     default = simple
+[merge]
+    tool = meld
+[diff]
+    tool = meld
 [alias]
-    aa = add --all
+    aa = add --all :/
     b = branch
-    ba = branch --all
-    changes = diff --name-status
     c = commit
-    ca = commit --all
-    camend = commit --amend
-    cm = commit -m
-    cma = commit --all -m
     co = checkout
-    dic = diff --cached
-    dis = diff --stat
-    l = log --pretty=oneline --abbrev-commit --graph --decorate
     s = status
-    undo = reset --soft HEAD^
+    l = log --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %s %C(cyan)[%cn]%C(reset)' --decorate --date=short --graph
