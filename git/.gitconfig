@@ -1,5 +1,6 @@
 [core]
     excludesfile = ~/.gitignore
+    eol = lf
 [user]
     name = Honza Bittner
     email = git@honzabittner.cz
@@ -20,3 +21,4 @@
     co = checkout
     s = status
     l = log --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %s %C(cyan)[%cn]%C(reset)' --decorate --date=short --graph
+
